@@ -34,7 +34,8 @@ public class Ball : MonoBehaviour
     void OnCollisionEnter2D(Collision2D coll){
 
         if (coll.gameObject.TryGetComponent(out Paddle paddle)){
-            Rigidbody.AddForce( new Vector2( 0, paddle.Axis) , ForceMode2D.Impulse);        
+            float diff = transform.position.y - coll.transform.position.y;
+            Rigidbody.AddForce( new Vector2( 0, diff ) , ForceMode2D.Impulse);        
         }
     }
 

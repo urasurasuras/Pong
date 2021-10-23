@@ -445,7 +445,7 @@ PrefabInstance:
     - target: {fileID: 3181913204028538831, guid: 079956b41db961e48a1a0973e3da8416,
         type: 3}
       propertyPath: m_Constraints
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8279115577520655993, guid: 079956b41db961e48a1a0973e3da8416,
         type: 3}
@@ -603,9 +603,10 @@ GameObject:
   - component: {fileID: 1183466272}
   - component: {fileID: 1183466274}
   - component: {fileID: 1183466273}
+  - component: {fileID: 1183466275}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -700,6 +701,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 500, y: 1}
   m_EdgeRadius: 0
+--- !u!50 &1183466275
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183466271}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1332822597
 GameObject:
   m_ObjectHideFlags: 0
@@ -867,9 +889,10 @@ GameObject:
   - component: {fileID: 1956577344}
   - component: {fileID: 1956577346}
   - component: {fileID: 1956577345}
+  - component: {fileID: 1956577347}
   m_Layer: 0
   m_Name: Top
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -964,6 +987,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 500, y: 1}
   m_EdgeRadius: 0
+--- !u!50 &1956577347
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956577343}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1958448815
 GameObject:
   m_ObjectHideFlags: 0
@@ -1168,7 +1212,7 @@ GameObject:
   - component: {fileID: 2105590632}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1290,7 +1334,7 @@ PrefabInstance:
     - target: {fileID: 3181913204028538831, guid: 079956b41db961e48a1a0973e3da8416,
         type: 3}
       propertyPath: m_Constraints
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8279115577520655993, guid: 079956b41db961e48a1a0973e3da8416,
         type: 3}
